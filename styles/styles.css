@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap');
+
+body {
+    background-color: black;
+    background-image: url("../images/background_pics/heart_tree.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
+header {
+    font-family:'Alfa Slab One', cursive;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    color:cornflowerblue;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+li {
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+    color:black;
+    margin-bottom: 20px;
+    padding: 5px;
+    display: inline;
+
+
+}
+
+a{
+color:darkorange;
+}
+a:hover {
+    color: fuchsia
+}
+
+footer {
+    ;
+    font-family: monospace;
+    font-size: 13px;
+    color: black;
+    background-color: lightpink;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
+    width:180px;
+}
+
+#background-cats{
+    background-image: url("../images/background_pics/poppy_flowers.jpg");
+    background-size:cover;
+}
+#background-dogs{
+background-image: url("../images/background_pics/colorful_trees.jpg");
+    background-size: cover;
+}
+#background-pets{
+background-image: url("../images/background_pics/white_trees.jpg")
+}
+
+.column{
+position: relative;
+    left:100px;
+    text-align: center;
+}
